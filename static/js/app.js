@@ -117,7 +117,7 @@ function optionChanged(value) {
         title: `${value} OTU Sample Values`,
         showlegend: false,
         height: 800,
-        width: 1500
+        width: 1000
       };
       //draw the plot
       Plotly.newPlot('bubble', data2, layout);
